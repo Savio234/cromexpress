@@ -867,11 +867,11 @@ input:focus-visible {
     width: 45rem;
   }
   .about-img1 {
-    width: 40rem;
+    width: 44rem;
     height: 37rem;
   }
   .about-img2, .about-img3 {
-    width: 19rem;
+    width: 21rem;
     height: 28rem;
   }
   .services-container {
@@ -917,8 +917,12 @@ input:focus-visible {
     width: 40rem;
   }
   .customer-img {
+    margin: 0 auto;
     width: 40rem;
     height: 45rem;
+  }
+  .customer-btn {
+    width: 40rem;
   }
   .other-imgs {
     width: 35rem;
