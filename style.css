@@ -117,7 +117,7 @@ input:focus-visible {
 .nav-list-item {
   font-family: Gilroy;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   line-height: 2rem;
   color: #212121;
 }
@@ -136,7 +136,7 @@ input:focus-visible {
   color: #212121;
 }
 .nav-cta-btn {
-  width: 12rem;
+  width: 14rem;
   height: 5rem;
   background: #DC2215;
   border-radius: 0.8rem;
@@ -183,16 +183,16 @@ input:focus-visible {
   color: #F5F5F5;
 }
 .hero-btn {
-  width: 12rem;
-  height: 5rem;
-  border-radius: 1rem;
+  width: 19rem;
+  height: 7.2rem;
+  border-radius: 1.2rem;
   margin-top: 3.2rem;
   background: #DC2215;
 }
 .hero-btn-text {
   font-family: GilroyB;
-  font-size: 1.6rem;
-  line-height: 2rem;
+  font-size: 2rem;
+  line-height: 2.4rem;
   font-weight: 700;
   color: #FAFAFA;
 }
@@ -240,7 +240,7 @@ input:focus-visible {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   background-blend-mode: darken;
 }
-.about-img1 img, .about-img2 img, .about-img3 img {
+.about-img1 img, .about-img2 img {
   object-fit: cover;
 }
 .about-img2, .about-img3 {
@@ -380,7 +380,10 @@ input:focus-visible {
 }
 .customer-img {
   width: 66.4rem;
-  height: 74.3rem;
+  height: 49.3rem;
+}
+.customer-img img {
+  object-fit: cover;
 }
 .customer-header {
   width: 40rem;
@@ -396,10 +399,13 @@ input:focus-visible {
   width: 62rem;
   margin: 2rem 0 3.5rem;
 }
+.customer-content {
+  padding-top: 8rem;
+}
 .customer-btn {
-  width: 16.5rem;
-  height: 6.7rem;
-  border-radius: 1rem;
+  width: 19rem;
+  height: 7.2rem;
+  border-radius: 1.2rem;
   background: #DC2215;
 }
 .customer-btn-p {
@@ -447,7 +453,7 @@ input:focus-visible {
   margin: 0 auto 4.2rem;
 }
 .review-text {
-  width: 37.8rem;
+  width: 58rem;
   margin: 0 auto 9rem;
 }
 .review-text-p {
@@ -823,6 +829,9 @@ input:focus-visible {
     width: 60rem;
     height: 50rem;
   }
+  .customer-btn {
+    width: 55rem;
+  }
   .collaborate-content {
     position: unset;
     width: 60rem;
@@ -857,11 +866,12 @@ input:focus-visible {
   .hero-section {
     height: 95vh;
   }
+  .hero-main-h {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
   .nav-list {
     width: auto;
-  }
-  .hero-main {
-    width: 45rem;
   }
   .about-text {
     width: 45rem;
@@ -913,7 +923,7 @@ input:focus-visible {
     font-size: 3rem;
     line-height: 4rem;
   }
-  .about-text, .services-intro, .about-intro-text, .customer-text, .other-img, .product-card, .product-card-img {
+  .about-text, .hero-main, .services-intro, .review-text, .customer-btn, .about-intro-text, .customer-text, .other-img, .product-card, .product-card-img {
     width: 40rem;
   }
   .customer-img {
@@ -921,8 +931,8 @@ input:focus-visible {
     width: 44rem;
     height: 45rem;
   }
-  .customer-btn {
-    width: 40rem;
+  .customer-content {
+    padding-top: 3rem;
   }
   .other-imgs {
     width: 35rem;
@@ -935,7 +945,8 @@ input:focus-visible {
     line-height: 3rem;
   }
   .tiny-img1 {
-    left: 4rem;
+    top: 34rem;
+    left: 1rem;
   }
   .tiny-img2 {
     right: 1rem;
