@@ -694,7 +694,7 @@ input:focus-visible {
     padding: 0 2rem;
   }
   .nav-logo {
-    margin-right: 0;
+    margin: 1rem 0;
   }
   .closeIcon {
     position: absolute;
@@ -704,7 +704,6 @@ input:focus-visible {
     cursor: pointer;
   }
   .hamburger {
-    margin-top: 2rem;
     display: block;
     width: 4rem;
     height: 4rem;
@@ -923,7 +922,15 @@ input:focus-visible {
     font-size: 3rem;
     line-height: 4rem;
   }
-  .about-text, .hero-main, .services-intro, .review-text, .customer-btn, .about-intro-text, .customer-text, .other-img, .product-card, .product-card-img {
+  .about-text, .hero-main, .services-intro, .review-text, .customer-btn, .about-intro-text, .customer-text, .other-img {
+    width: 40rem;
+  }
+  .product-card {
+    height: 37rem;
+    width: 40rem;
+  }
+  .product-card-img {
+    height: 24rem;
     width: 40rem;
   }
   .customer-img {
