@@ -137,7 +137,7 @@ input:focus-visible {
 }
 .nav-cta-btn {
   width: 14rem;
-  height: 5rem;
+  height: 5.2rem;
   background: #DC2215;
   border-radius: 0.8rem;
 }
@@ -184,7 +184,7 @@ input:focus-visible {
 }
 .hero-btn {
   width: 19rem;
-  height: 7.2rem;
+  height: 5.2rem;
   border-radius: 1.2rem;
   margin-top: 3.2rem;
   background: #DC2215;
@@ -404,7 +404,7 @@ input:focus-visible {
 }
 .customer-btn {
   width: 19rem;
-  height: 7.2rem;
+  height: 6.2rem;
   border-radius: 1.2rem;
   background: #DC2215;
 }
