@@ -598,7 +598,6 @@ input:focus-visible {
   line-height: 3rem;
 }
 .location-icon {
-  background: #fff;
   width: 2rem;
   height: 2rem;
 }
@@ -943,7 +942,7 @@ input:focus-visible {
     font-size: 3rem;
     line-height: 4rem;
   }
-  .about-text, .hero-main, .footer-icons, .services-intro, .review-text, .customer-btn, .about-intro-text, .customer-text, .other-img {
+  .about-text, .hero-main, .services-intro, .review-text, .customer-btn, .about-intro-text, .customer-text, .other-img {
     width: 40rem;
   }
   .product-card {
@@ -1021,5 +1020,9 @@ input:focus-visible {
   }
   .footer-sub-text {
     margin: 2rem 0 0 0;
+  }
+  .footer-icons {
+    width: 45rem;
+    margin: 0 auto 2rem;
   }
 }
