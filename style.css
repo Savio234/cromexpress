@@ -251,6 +251,20 @@ input:focus-visible {
 }
 
 
+.ad-header {
+  margin: 8rem auto 5rem;
+  text-align: center;
+}
+.video-container {
+  width: 120rem;
+  height: 50rem;
+  margin: 0 auto 7rem;
+}
+.video-container iframe {
+  object-fit: contain;
+}
+
+
 .services-container {
   padding: 10rem 6.4rem 10rem;
 }
@@ -275,11 +289,11 @@ input:focus-visible {
 .circle-text {
   position: absolute;
   top: 12rem;
-  left: 7rem;
+  left: 4.5rem;
   font-family: GilroyB;
   font-weight: 800;
   font-size: 2.4rem;
-  line-height: 3.6rem;
+  line-height: 3rem;
   color: #06060B;
 }
 .service-img {
@@ -693,6 +707,13 @@ input:focus-visible {
   .collaborate-content {
     right: 1.5rem;
   }
+  .ad-header {
+    margin: 2rem 0 19rem;
+  }
+  .video-container {
+    width: 70rem;
+    height: 45rem;
+  }
 }
 
 
@@ -872,6 +893,14 @@ input:focus-visible {
   .footer-h {
     font-size: 2rem;
   }
+  .ad-header {
+    margin: 2rem 0 12rem;
+  }
+  .video-container {
+    width: 60rem;
+    height: 40rem;
+    margin: 0 auto 4rem;
+  }
 
 }
 
@@ -923,7 +952,7 @@ input:focus-visible {
     height: 5rem;
   }
   .circle-text {
-    left: 3rem;
+    left: 1rem;
     top: 8.5rem;
     font-size: 2rem;
     line-height: 3rem;
@@ -1024,5 +1053,9 @@ input:focus-visible {
   .footer-icons {
     width: 45rem;
     margin: 0 auto 2rem;
+  }
+  .video-container {
+    width: 45rem;
+    height: 40rem;
   }
 }
