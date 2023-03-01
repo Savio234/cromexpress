@@ -50,9 +50,6 @@ a {
 .flex-justify {
   justify-content: center;
 }
-.flex-around {
-  justify-content: space-around;
-}
 .flex-between {
   justify-content: space-between;
 }
@@ -122,7 +119,7 @@ input:focus-visible {
   color: #212121;
 }
 .nav-list-item:hover, .red {
-  color: #DC2215;
+  color: #EA445A;
 }
 .inner-nav-list {
   padding-top: 1.5rem;
@@ -138,7 +135,7 @@ input:focus-visible {
 .nav-cta-btn {
   width: 14rem;
   height: 5.2rem;
-  background: #DC2215;
+  background: #EA445A;
   border-radius: 0.8rem;
 }
 
@@ -187,7 +184,7 @@ input:focus-visible {
   height: 5.2rem;
   border-radius: 1.2rem;
   margin-top: 3.2rem;
-  background: #DC2215;
+  background: #EA445A;
 }
 .hero-btn-text {
   font-family: GilroyB;
@@ -377,7 +374,7 @@ input:focus-visible {
   font-size: 1.6rem;
   line-height: 2.4rem;
   font-weight: 600;
-  color: #DC2215;
+  color: #EA445A;
   letter-spacing: 0.05rem;
 }
 .project-h {
@@ -423,7 +420,7 @@ input:focus-visible {
   width: 19rem;
   height: 6.2rem;
   border-radius: 1.2rem;
-  background: #DC2215;
+  background: #EA445A;
 }
 .customer-btn-p {
   font-family: GilroyB;
@@ -486,7 +483,7 @@ input:focus-visible {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  background: #C7FEDC;
+  background: #C7FEDC;  
 }
 .light-purple {
   position: absolute;
@@ -600,7 +597,7 @@ input:focus-visible {
   margin: 0 auto 1rem;
 }
 .footer-sub, .location-sub {
-  font-family: 'Roobert', sans-serif;
+  font-family: GilroyB;
   font-weight: 600;
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -614,6 +611,9 @@ input:focus-visible {
 .location-icon {
   width: 2rem;
   height: 2rem;
+}
+#sm-icons {
+  display: none;
 }
 
 
@@ -888,7 +888,7 @@ input:focus-visible {
     margin: 0 auto 4rem;
   }
   .footer-icons {
-    width: 35rem;
+    width: 55rem;
   }
   .footer-h {
     font-size: 2rem;
@@ -952,8 +952,10 @@ input:focus-visible {
     height: 5rem;
   }
   .circle-text {
-    left: 1rem;
-    top: 8.5rem;
+    width: 10rem;
+    text-align: center;
+    left: 4rem;
+    top: 6.5rem;
     font-size: 2rem;
     line-height: 3rem;
   }
@@ -1048,11 +1050,38 @@ input:focus-visible {
     width: auto;
   }
   .footer-sub-text {
-    margin: 2rem 0 0 0;
+    margin: 1rem 0 0 0;
   }
   .footer-icons {
     width: 45rem;
     margin: 0 auto 2rem;
+  }
+  #lg-icons {
+    display: none;
+  }
+  #sm-icons {
+    display: flex;
+  }
+  .footer-sm-icon {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+  }
+  .footer-sm-icons {
+    padding: 0 3rem;
+    margin-bottom: 1rem;
+  }
+  .sm-social-link {
+    margin-bottom: 3rem;
+  }
+  .footer-icon-h {
+    font-family: GilroyB;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #FFFFFF;
+  }
+  .footer-content {
+    padding: 7rem 0 3rem;
   }
   .video-container {
     width: 45rem;
