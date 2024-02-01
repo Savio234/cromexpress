@@ -365,6 +365,7 @@ input:focus-visible {
 }
 .product-card-img img {
   object-fit: cover;
+  border-radius: 1.6rem;
 }
 .project-header {
   margin: 4rem auto 0;
