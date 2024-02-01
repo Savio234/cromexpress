@@ -236,15 +236,23 @@ input:focus-visible {
   height: 40.4rem;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   background-blend-mode: darken;
+  border-radius: 1.6rem;
 }
 .about-img1 img, .about-img2 img {
   object-fit: cover;
+}
+.about-img1 img {
+  border-radius: 1.6rem;
 }
 .about-img2, .about-img3 {
   width: 38.5rem;
   height: 40.4rem;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   background-blend-mode: darken;
+  border-radius: 1rem;
+}
+.about-img2 img, .about-img3 img {
+  border-radius: 1rem;
 }
 
 
