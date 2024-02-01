@@ -714,10 +714,15 @@ input:focus-visible {
     width: 70rem;
     height: 45rem;
   }
+  .tiny-img1 {
+    left: 25.5rem;
+    top: 43rem;
+  }
+  .tiny-img2 {
+    left: 25rem;
+    top: 20rem;
+  }
 }
-
-
-
 
 @media screen and (max-width: 650px) {
   html {
