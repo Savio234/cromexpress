@@ -1038,9 +1038,11 @@ input:focus-visible {
     width: 45rem;
     height: 68rem;
     padding: 3rem;
+    margin-bottom: 4rem;
   }
   .collaborate-container {
     padding: 0 2rem;
+    gap: 2rem;
   }
   .footer-nav {
     width: 40rem;
