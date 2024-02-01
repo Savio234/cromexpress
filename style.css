@@ -536,6 +536,9 @@ input:focus-visible {
   width: 80rem;
   height: 60rem;
 }
+.collaborate-img img {
+  border-radius: 1.6rem;
+}
 .collaborate-content {
   position: absolute;
   right: 6.5rem;
@@ -544,6 +547,7 @@ input:focus-visible {
   height: 47.8rem;
   padding: 5rem;
   background: #F5F5F5;
+  border-radius: 1.6rem;
 }
 .collaborate-header {
   margin-bottom: 1.6rem;
